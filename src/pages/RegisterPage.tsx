@@ -29,7 +29,7 @@ export default function RegisterPage() {
 
   return (
     <div>
-      <h2>Register</h2>
+      <h2>Registrarse</h2>
       <form onSubmit={handleRegister}>
         <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required />
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />

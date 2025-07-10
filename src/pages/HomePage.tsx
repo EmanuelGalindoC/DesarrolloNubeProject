@@ -22,8 +22,7 @@ const handleLogout = async () => {
 };
   return (
     <div>
-      <h1>Welcome, {currentUser?.displayName}</h1>
-      <p>You're in the home page!</p>
+      <h1>Bienvenido, {currentUser?.displayName}</h1>
       <button onClick={handleLogout}>Logout</button>
       <div>
         <h2>Géneros Musicales</h2>

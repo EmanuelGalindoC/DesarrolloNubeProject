@@ -20,7 +20,7 @@ export default function LoginPage() {
 
   return (
     <div>
-      <h2>Login</h2>
+      <h2>Ingresar</h2>
       <form onSubmit={handleLogin}>
         <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
